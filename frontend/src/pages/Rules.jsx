@@ -1,5 +1,5 @@
 function Rules() {
-  return <div>Home</div>
+  return <div>Rules</div>
 }
 
 export default Rules
