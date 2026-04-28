@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
+import { Sparkles } from 'lucide-react'
 
 function Navbar() {
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-10 py-5 bg-black/60 backdrop-blur-md border-b border-purple-900/40">
                 <Link to="/"  className="text-purple-300 font-bold text-xl tracking-widest uppercase hover:text-purple-200 transition-colors duration-300">
+                    <Sparkles className="inline-block mr-1" size={18} />
                     Starfall
                 </Link>
                 <div className="flex gap-8">
